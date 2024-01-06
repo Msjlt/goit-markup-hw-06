@@ -558,6 +558,7 @@ img {
 @media screen and (min-width: 768px) {
   .list-team-main {
     gap: 24px;
+    row-gap: 64px;
   }
 }
 
@@ -1335,6 +1336,9 @@ input:focus + label > span {
 }
 
 .mob-container {
+  position: relative;
+  padding-top: 72px;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
 
@@ -1349,9 +1353,6 @@ input:focus + label > span {
 
   width: 100%;
   height: 100%;
-
-  padding-top: 72px;
-  padding-bottom: 40px;
 
   background-color: #fff;
   transform: translateX(-100%);
